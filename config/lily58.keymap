@@ -98,8 +98,6 @@
 
         extra_2 { status = "reserved"; };
 
-        5
-
         extra_3 { status = "reserved"; };
     };
 };
