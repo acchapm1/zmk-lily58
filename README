@@ -1,8 +1,8 @@
-Initial ZMK Config for my Lily58 from Typeractive
+##Initial ZMK Config for my Lily58 from Typeractive
 
-Homerow mods, with a few tweaks to the default layout.
+**Homerow mods, with a few tweaks to the default layout**
 
-Homerow Mods - GACS/◆⎇⎈⇧ keys as my primary modifiers, A CMD, S ALT, D CTRL, F SHIFT and J SHIFT, K CTRL, L ALT, ; CMD 
+GACS/◆⎇⎈⇧ keys as my primary modifiers, A CMD, S ALT, D CTRL, F SHIFT and J SHIFT, K CTRL, L ALT, ; CMD 
 Other Hold-Tap RET Raise, TAB Lower, PIPE TILDE
 
     Base Layer
