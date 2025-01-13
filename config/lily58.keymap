@@ -44,11 +44,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC               &kp N1       &kp N2      &kp N3        &kp N4         &kp N5                                     &kp N6     &kp N7        &kp N8        &kp N9       &kp N0          &kp MINUS
-&kp DEL               &kp Q        &kp W       &kp E         &kp R          &kp T                                      &kp Y      &kp U         &kp I         &kp O        &kp P           &kp BSLH
-&kp LS(LA(LC(LGUI)))  &htk LGUI A  &htk ALT S  &htk LCTRL D  &htk LSHIFT F  &kp G                                      &kp H      &htk RSHFT J  &htk RCTRL K  &htk RALT L  &htk RGUI SEMI  &kp SQT
-&kp LS(LA(LCTRL))     &kp Z        &kp X       &kp C         &kp V          &kp B    &kp LG(SPACE)    &htk TILDE PIPE  &kp N      &kp M         &kp COMMA     &kp DOT      &kp FSLH        &kp RSHFT
-                                               &kp LGUI      &mo 1          &kp RET  &htl 2 BSPC      &htl 1 TAB       &kp SPACE  &mo 2         &kp RGUI
+&kp ESC               &kp N1       &kp N2      &kp N3        &kp N4        &kp N5                                     &kp N6     &kp N7        &kp N8        &kp N9       &kp N0          &kp MINUS
+&kp DEL               &kp Q        &kp W       &kp E         &kp R         &kp T                                      &kp Y      &kp U         &kp I         &kp O        &kp P           &kp BSLH
+&kp LS(LA(LC(LGUI)))  &htk LGUI A  &htk LALT S &htk LCTRL D  &htk LSHFT F  &kp G                                      &kp H      &htk RSHFT J  &htk LCTRL K  &htk LALT L  &htk LGUI SEMI  &kp SQT
+&kp LS(LA(LCTRL))     &kp Z        &kp X       &kp C         &kp V         &kp B    &kp LG(SPACE)    &htk TILDE PIPE  &kp N      &kp M         &kp COMMA     &kp DOT      &kp FSLH        &kp RSHFT
+                                               &kp LGUI      &mo 1         &kp RET  &htl 2 BSPC      &htl 1 TAB       &kp SPACE  &mo 2         &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
