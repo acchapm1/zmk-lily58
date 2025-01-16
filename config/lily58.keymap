@@ -13,20 +13,18 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HTK";
             bindings = <&kp>, <&kp>;
-
             #binding-cells = <2>;
             tapping-term-ms = <175>;
-            flavor = "balanced";
+            flavor = "hold-preferred";
         };
 
         htl: htl {
             compatible = "zmk,behavior-hold-tap";
             label = "HTL";
             bindings = <&mo>, <&kp>;
-
             #binding-cells = <2>;
             tapping-term-ms = <175>;
-            flavor = "balanced";
+            flavor = "hold-preferred";
         };
     };
 
