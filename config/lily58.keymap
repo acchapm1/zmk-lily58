@@ -83,19 +83,19 @@
 
         raise_layer {
             // ------------------------------------------------------------------------------------------------------------
-            // |       |     |     |      |      |      |                   |      |       |       |      |       |       |
-            // |   `   |  1  |  2  |  3   |  4   |  5   |                   |  (   |   )   |   {   |  }   |   [   |   ]   |
-            // |   F1  |  F2 |  F3 |  F4  |  F5  |  F6  |                   |  <-  |   v   |   ^   |  ->  |       |       |
-            // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |   ~  |   |   |       |      |       |       |
-            //                     |      |      |      |        |  |       |      |       |       |
+            // |      |       |       |      |       |       |                   |      |       |       |      |       |       |
+            // |  (   |   )   |   {   |  }   |   [   |   ]   |                   |  (   |   )   |   {   |  }   |   [   |   ]   |
+            // |      |       |       |      |    ~  |       |                   |  <-  |   v   |   ^   |  ->  |       |       |
+            // |      |       |       |      |       |       |        |  |       |   ~  |   |   |       |      |       |       |
+            //                        |      |       |       |        |  |       |      |       |       |
 
             display-name = "Raise";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &trans    &trans    &trans     &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp LPAR  &kp RPAR  &kp LBKT  &kp RBKT   &kp LBRC  &kp RBRC
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp TILDE &kp PIPE  &trans    &trans     &trans    &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans
+&trans    &trans    &trans    &trans     &trans    &trans                      &trans    &trans    &trans    &trans     &trans    &trans
+&kp LPAR  &kp RPAR  &kp LBKT  &kp RBKT   &kp LBRC  &kp RBRC                    &trans    &trans    &trans    &trans     &trans    &trans
+&trans    &trans    &trans    &trans     &trans    &trans                      &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans    &trans
+&trans    &trans    &trans    &trans     &trans    &trans    &trans    &trans  &kp TILDE &kp PIPE  &trans    &trans     &trans    &trans
+                    &trans    &trans     &trans    &trans    &trans    &trans  &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
