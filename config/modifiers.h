@@ -4,18 +4,6 @@
 #define LHYPER LEFT_HYPER
 #define OFFICE LEFT_HYPER
 
-#define LEFT_MEH LS(LC(LALT))
-#define LM(key) LS(LC(LA(key)))
-#define LMEH LEFT_MEH
-
-#define RIGHT_HYPER RS(RC(RA(RGUI)))
-#define RH(key) RS(RC(RA(RG(key))))
-#define RHYPER RIGHT_HYPER
-
-#define RIGHT_MEH RS(RC(RALT))
-#define RM(key) RS(RC(RA(key)))
-#define RMEH RIGHT_MEH
-
 #define LSG LS(LGUI)
 #define LSGK(key) LS(LG(key))
 
