@@ -10,3 +10,5 @@ Other Hold-Tap RET Raise, TAB Lower, PIPE TILDE
 ![Lower Layer](img/lily58-lower.png)
 
 ![Raise Layer](img/lily58-raise.png)
+
+![Fun Layer](img/lily58-fun.png)
